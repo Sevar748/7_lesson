@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background: #2551A1;
+}
+.conteyner{
+    max-width: 819px;
+    margin: auto;
+}
+main{
+    padding-top: 100px;
+    #about{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 18px;
+        .text{
+            background: #FFFFFF;
+            grid-area: 1 / 1 / span 2 / span 3;
+            padding: 36px 39px;
+            h2{
+                color: #2551A1;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            p{
+                font-size: 13px;
+                font-weight: 300;
+                margin-top: 21px;
+                margin-bottom: 38px;
+            }
+            button{
+                padding: 11px 20px;
+                background-color: #2551A1;
+                color: #FFFFFF;
+                font-size: 10px;
+                font-weight: 400;
+            }
+        }
+        .icon{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 17px;
+            .survise{text-align: center;
+            color: #FFFFFF;
+            background-color: #011D44;
+            .block{
+                max-width: 122px;
+                min-height: 122px;
+                justify-content: center;
+            }
+
+        }
+        .contact{text-align: center;
+            color: #2551A1;
+            background-color: #CBE2F0;
+
+        }
+        }
+        .block{
+            .fi{
+                font-size: 30px;
+            }
+        }
+    }
+    .orange{
+        background: #F07321;
+        color: #FFFFFF;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        min-height: 57px;
+        justify-content: space-around;
+        padding: 19px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+        h2{
+            font-size: 16.2px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 16.4px;
+            font-weight: 400;
+        }
+        button{
+            padding: 12px 21px;
+            color: #FFFFFF;
+            background: #CF4900;
+            border: none;
+        }
+    }
+    .photos{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        .photo{
+            width: 192px;
+            height: 193px;
+            background: #666666;
+        }
+    }
+}
